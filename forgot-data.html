@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Проблема с входом - Газпромбанк Бизнес-Онлайн</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__content">
+        <svg class="header__logo-icon" width="203" height="50" aria-hidden="true">
+          <use xlink:href="images/sprite.svg#icon-logo"></use>
+        </svg>
+        <div class="header__right">
+          <span class="header__text">
+            <span class="header__text-top">Топ-3 лучших банков для корпоративных клиентов</span>
+            <span class="header__text-bottom">По&nbsp;версии Markswebb</span>
+          </span>
+          <svg class="header__icon" width="56" height="56" aria-hidden="true">
+            <use xlink:href="images/sprite.svg#icon-markswebb"></use>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="forgot-data">
+      <h1 class="visually-hidden">Выбор способа войти</h1>
+      <div class="container">
+        <div class="forgot-data__content">
+          <form class="reset-form" action="#" method="POST">
+            <fieldset class="reset-form__group">
+              <legend class="reset-form__legend">Не&nbsp;можете войти?</legend>
+              <div class="reset-form__inner">
+                <div class="custom-radio">
+                  <input class="custom-radio__field visually-hidden" id="new-password" type="radio" name="reset-type"
+                    value="new-password">
+                  <label class="custom-radio__label" for="new-password">Установить новый пароль</label>
+                </div>
+                <div class="custom-radio">
+                  <input class="custom-radio__field visually-hidden" id="restore-login" type="radio" name="reset-type"
+                    value="restore-login">
+                  <label class="custom-radio__label" for="restore-login">Восстановить логин</label>
+                </div>
+              </div>
+            </fieldset>
+            <button class="btn" type="submit" disabled>Продолжить</button>
+            <button class="forgot-data__btn-back" type="button" aria-label="Вернуться на предыдущую страницу">
+              <svg class="forgot-data__icon-back" width="20" height="20" aria-hidden="true">
+                <use xlink:href="images/sprite.svg#icon-back"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__content">
+        <div class="footer__info">
+          <a class="footer__contacts" href="tel:+78001001189">
+            <svg class="footer__contacts-icon" width="20" height="20" aria-hidden="true">
+              <use xlink:href="images/sprite.svg#icon-phone"></use>
+            </svg>
+            <span class="footer__contacts-text">8 800 100 11 89</span>
+          </a>
+          <a class="footer__contacts" href="#">
+            <svg class="footer__contacts-icon" width="20" height="20" aria-hidden="true">
+              <use xlink:href="images/sprite.svg#icon-telegram"></use>
+            </svg>
+            <span class="footer__contacts-text">Написать в&nbsp;Telegram</span>
+          </a>
+          <span class="footer__copyright">&copy;&nbsp;2024 Банк ГПБ (АО) Генеральная лицензия Банка России
+            &#8470;&nbsp;354</span>
+          <a class="footer__data-policy" href="#">Политика обработки персональных данных</a>
+        </div>
+        <button class="footer__theme-btn" type="button">
+          <span class="footer__theme-text">Светлая тема</span>
+          <svg class="footer__theme-icon" width="20" height="20" aria-hidden="true">
+            <use xlink:href="images/sprite.svg#icon-theme"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

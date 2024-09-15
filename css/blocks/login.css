@@ -1,0 +1,19 @@
+.login__content {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.login__registration-link {
+    font-size: 16px;
+    line-height: 20px;
+    color: #476bf0;
+    outline: none;
+}
+
+.login__registration-link:hover {
+    color: #3356d7;
+}

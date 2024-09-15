@@ -1,0 +1,57 @@
+.registration-form {
+    width: 450px;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0px 2px 24px 0px rgba(127, 34, 85, 0.02);
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.registration-form__group {
+    margin: 0;
+    padding: 0;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.registration-form__legend {
+    font-size: 24px;
+    line-height: 28px;
+    color: #1e222e;
+    text-align: center;
+    margin: 0 0 20px;
+}
+
+.registration-form__columns {
+    display: flex;
+    gap: 10px;
+}
+
+.registration-form__captcha {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 8px;
+    padding-top: 4px;
+}
+
+.registration-form__reboot-btn {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+}
+
+.registration-form__img {
+    border-radius: 8px;
+    border: 1px solid #cdcfde;
+    padding: 0 31px;
+    width: 188px;
+    height: 44px;
+}

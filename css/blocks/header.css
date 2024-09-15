@@ -1,0 +1,36 @@
+.header {
+    padding-top: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.header__right {
+    display: flex;
+    gap: 4px;
+}
+
+.header__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: right;
+}
+
+.header__text-top {
+    color: #777b87;
+}
+
+.header__text-bottom {
+    color: #a8acb7;
+}
