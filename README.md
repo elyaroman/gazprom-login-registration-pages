@@ -15,7 +15,7 @@
 
 | Вход | Изменение пароля | Регистрация |
 |-------------|-------------|-------------|
-| <img src="layout/Вход.jpg" alt="login" width="600px"> | <img src="layout/Изменение пароля.jpg" alt="forgot-data" width="600px"> | <img src="layout/Регистрация - БЕСIT.jpg" alt="registration" width="600px"> |
+| <img src="layout/Вход.jpg" alt="login" width="600px"> | <img src="layout/Изменение пароля.jpg" alt="forgot-data" width="600px"> | <img src="layout/Регистрация.jpg" alt="registration" width="600px"> |
 
 ## 📂 Структура проекта
 ```
