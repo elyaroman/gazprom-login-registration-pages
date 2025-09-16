@@ -15,11 +15,11 @@
 
 | Вход | Изменение пароля | Регистрация |
 |-------------|-------------|-------------|
-| <img src="layout/Обратная связь - БЕСIT.jpg" alt="login" width="600px"> | <img src="layout/Опрос - БЕСIT.jpg" alt="forgot-data" width="600px"> | <img src="layout/Оформление заказа - БЕСIT.jpg" alt="registration" width="600px"> |
+| <img src="layout/Вход.jpg" alt="login" width="600px"> | <img src="layout/Изменение пароля.jpg" alt="forgot-data" width="600px"> | <img src="layout/Регистрация - БЕСIT.jpg" alt="registration" width="600px"> |
 
 ## 📂 Структура проекта
 ```
-GPB
+gazprombank
 ├── css                       # Стили CSS 
 │   └── global                # Глобальные стили
 │       └── (файлы стилей) 
